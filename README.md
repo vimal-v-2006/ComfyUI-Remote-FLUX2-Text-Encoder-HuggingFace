@@ -17,7 +17,8 @@ Use the official remote encoder format fully compatible with ComfyUI + FLUX.2
 
 ## 🔹 Installation
 Option 1 — Clone directly into ComfyUI
-cd path/to/ComfyUI/custom_nodes
+## cd path/to/ComfyUI/custom_nodes
+```bash
 git clone https://github.com/vimal-v-2006/ComfyUI-Remote-FLUX2-Text-Encoder-HuggingFace.git
 
 
