@@ -1,4 +1,4 @@
-Remote FLUX.2 Text Encoder (HuggingFace) – ComfyUI Custom Node
+##Remote FLUX.2 Text Encoder (HuggingFace) – ComfyUI Custom Node
 
 A lightweight ComfyUI node that sends your prompts to the HuggingFace FLUX.2 Remote Text Encoder and returns FLUX.2-compatible conditioning tensors.
 No local text encoder, no heavy model downloads — remote, fast, and ready to plug into any FLUX.2 workflow.
