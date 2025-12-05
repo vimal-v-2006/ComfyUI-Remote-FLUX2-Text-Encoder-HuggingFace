@@ -1,9 +1,9 @@
-##Remote FLUX.2 Text Encoder (HuggingFace) – ComfyUI Custom Node
+# Remote FLUX.2 Text Encoder (HuggingFace) – ComfyUI Custom Node
 
 A lightweight ComfyUI node that sends your prompts to the HuggingFace FLUX.2 Remote Text Encoder and returns FLUX.2-compatible conditioning tensors.
 No local text encoder, no heavy model downloads — remote, fast, and ready to plug into any FLUX.2 workflow.
 
-🔹 Purpose
+## 🔹 Purpose
 
 This node replaces the local FLUX.2 text encoder with a remote HuggingFace-hosted encoder, so you can:
 
@@ -15,7 +15,7 @@ Improve startup speed
 
 Use the official remote encoder format fully compatible with ComfyUI + FLUX.2
 
-🔹 Installation
+## 🔹 Installation
 Option 1 — Clone directly into ComfyUI
 cd path/to/ComfyUI/custom_nodes
 git clone https://github.com/vimal-v-2006/ComfyUI-Remote-FLUX2-Text-Encoder-HuggingFace.git
@@ -24,7 +24,7 @@ git clone https://github.com/vimal-v-2006/ComfyUI-Remote-FLUX2-Text-Encoder-Hugg
 Restart ComfyUI.
 The node auto-installs required packages (requests, huggingface_hub) on first load.
 
-Option 2 — Manual install
+## Option 2 — Manual install
 
 Download remote_flux2_text_encoder_hf.py
 
@@ -36,7 +36,7 @@ ComfyUI/custom_nodes/
 Restart ComfyUI
 The node auto-installs dependencies automatically.
 
-🔹 Create a HuggingFace Token (step-by-step)
+## 🔹 Create a HuggingFace Token (step-by-step)
 
 Log in to: https://huggingface.co
 
@@ -50,7 +50,7 @@ Copy the token (hf_...)
 
 Keep it private. Do not upload it to GitHub.
 
-🔹 How to Use (simple steps)
+## 🔹 How to Use (simple steps)
 
 Open ComfyUI
 
@@ -64,7 +64,7 @@ Positive Prompt → your main prompt
 
 Negative Prompt (optional)
 
-HF API Token → paste your hf_... token
+# HF API Token → paste your hf_... token
 
 Leave Endpoint URL and Device as default
 
