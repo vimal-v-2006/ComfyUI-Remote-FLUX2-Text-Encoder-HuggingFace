@@ -64,7 +64,7 @@ Positive Prompt → your main prompt
 
 Negative Prompt (optional)
 
-# HF API Token → paste your hf_... token
+## **HF API Token → paste your hf_... token**
 
 Leave Endpoint URL and Device as default
 
